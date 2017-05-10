@@ -41,7 +41,7 @@ def is_id_trash(ID):
    # use regex
     if  for x in ID:
             #make x be the ascii value
-        if(ord(x) > 48 and ord(x) < 57) and len(ID) == 5:
+        if(ord(x) >= 48 and ord(x) <= 57) and len(ID) == 5:
         return False
         #the string is not trash
     else:
