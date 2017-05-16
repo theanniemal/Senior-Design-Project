@@ -63,8 +63,8 @@ def main(args):
         #call David with error message
         return 1
 
-    if !is_Match(enteredID, collection)
-        return 1
+    if is_Match(enteredID, collection)
+        return 0
         #do reporting
     if(args["returning"]):
         pass
